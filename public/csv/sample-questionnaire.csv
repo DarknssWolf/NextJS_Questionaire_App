@@ -1,0 +1,104 @@
+Question ID;Section;Question;Help Text;Type;Required;Option ID;Option;Option Score
+section1-1;Section 1;How is quality management handled in your organisation?;Quality Management. A quality management system defines how work is checked, errors are caught, and standards are kept consistent.;radio;yes;1;No defined quality processes;0
+section1-1;Section 1;How is quality management handled in your organisation?;Quality Management. A quality management system defines how work is checked, errors are caught, and standards are kept consistent.;radio;yes;2;Informal checks by individual staff;1
+section1-1;Section 1;How is quality management handled in your organisation?;Quality Management. A quality management system defines how work is checked, errors are caught, and standards are kept consistent.;radio;yes;3;Documented procedures with routine inspections;2
+section1-1;Section 1;How is quality management handled in your organisation?;Quality Management. A quality management system defines how work is checked, errors are caught, and standards are kept consistent.;radio;yes;4;A full quality management system across all sites;3
+section1-1;Section 1;How is quality management handled in your organisation?;Quality Management. A quality management system defines how work is checked, errors are caught, and standards are kept consistent.;radio;yes;5;Certified to ISO 9001 with regular external audits;4
+section1-2;Section 1;What proportion of customer orders arrive complete and on time?;Delivery Performance. Measured as orders delivered in full, on the promised date, as a share of all orders.;radio;yes;1;We do not measure delivery performance;0
+section1-2;Section 1;What proportion of customer orders arrive complete and on time?;Delivery Performance. Measured as orders delivered in full, on the promised date, as a share of all orders.;radio;yes;2;Below 80%;1
+section1-2;Section 1;What proportion of customer orders arrive complete and on time?;Delivery Performance. Measured as orders delivered in full, on the promised date, as a share of all orders.;radio;yes;3;80% to 89%;2
+section1-2;Section 1;What proportion of customer orders arrive complete and on time?;Delivery Performance. Measured as orders delivered in full, on the promised date, as a share of all orders.;radio;yes;4;90% to 95%;3
+section1-2;Section 1;What proportion of customer orders arrive complete and on time?;Delivery Performance. Measured as orders delivered in full, on the promised date, as a share of all orders.;radio;yes;5;Above 95%;4
+section1-3;Section 1;How are defects and customer returns dealt with?;Quality Management.;radio;yes;1;No formal handling of defects;0
+section1-3;Section 1;How are defects and customer returns dealt with?;Quality Management.;radio;yes;2;Defects fixed case by case, no records kept;1
+section1-3;Section 1;How are defects and customer returns dealt with?;Quality Management.;radio;yes;3;Defects logged and reviewed periodically;2
+section1-3;Section 1;How are defects and customer returns dealt with?;Quality Management.;radio;yes;4;Root-cause analysis on every recurring defect;3
+section1-3;Section 1;How are defects and customer returns dealt with?;Quality Management.;radio;yes;5;Closed-loop corrective action with defect-rate targets;4
+section1-4;Section 1;How do you vet and monitor your own suppliers?;Supply Chain Oversight.;radio;yes;1;We do not vet our suppliers;0
+section1-4;Section 1;How do you vet and monitor your own suppliers?;Supply Chain Oversight.;radio;yes;2;Basic checks when a supplier is first engaged;1
+section1-4;Section 1;How do you vet and monitor your own suppliers?;Supply Chain Oversight.;radio;yes;3;Onboarding checks plus periodic reviews of key suppliers;2
+section1-4;Section 1;How do you vet and monitor your own suppliers?;Supply Chain Oversight.;radio;yes;4;Risk-based reviews covering all active suppliers;3
+section1-4;Section 1;How do you vet and monitor your own suppliers?;Supply Chain Oversight.;radio;yes;5;Continuous monitoring with scorecards and on-site audits;4
+section1-5;Section 1;Which measures protect your output when production is disrupted?;Operational Resilience. Tick each measure you have in place.;checkbox;no;1;No disruption measures in place;0
+section1-5;Section 1;Which measures protect your output when production is disrupted?;Operational Resilience. Tick each measure you have in place.;checkbox;no;2;More than one source for critical materials;1
+section1-5;Section 1;Which measures protect your output when production is disrupted?;Operational Resilience. Tick each measure you have in place.;checkbox;no;3;Safety stock held for key lines;1
+section1-5;Section 1;Which measures protect your output when production is disrupted?;Operational Resilience. Tick each measure you have in place.;checkbox;no;4;Work can shift to an alternate site;1
+section1-5;Section 1;Which measures protect your output when production is disrupted?;Operational Resilience. Tick each measure you have in place.;checkbox;no;5;Documented recovery procedures;1
+section1-5;Section 1;Which measures protect your output when production is disrupted?;Operational Resilience. Tick each measure you have in place.;checkbox;no;6;Disruption scenarios rehearsed at least yearly;1
+section1-5;Section 1;Which measures protect your output when production is disrupted?;Operational Resilience. Tick each measure you have in place.;checkbox;no;7;Contingency terms agreed with key suppliers;1
+section1-6;Section 1;How is equipment maintenance approached?;Asset Management.;radio;yes;1;Equipment is fixed only when it breaks;0
+section1-6;Section 1;How is equipment maintenance approached?;Asset Management.;radio;yes;2;Basic servicing when time allows;1
+section1-6;Section 1;How is equipment maintenance approached?;Asset Management.;radio;yes;3;A planned maintenance schedule is followed;2
+section1-6;Section 1;How is equipment maintenance approached?;Asset Management.;radio;yes;4;Condition monitoring flags issues early;3
+section1-6;Section 1;How is equipment maintenance approached?;Asset Management.;radio;yes;5;Predictive maintenance driven by live equipment data;4
+section1-7;Section 1;Can you trace materials and components through your process?;Traceability. Traceability means knowing which batch of input material ended up in which delivered product.;radio;yes;1;No traceability;0
+section1-7;Section 1;Can you trace materials and components through your process?;Traceability. Traceability means knowing which batch of input material ended up in which delivered product.;radio;yes;2;Paper records for major inputs only;1
+section1-7;Section 1;Can you trace materials and components through your process?;Traceability. Traceability means knowing which batch of input material ended up in which delivered product.;radio;yes;3;Batch-level records for most materials;2
+section1-7;Section 1;Can you trace materials and components through your process?;Traceability. Traceability means knowing which batch of input material ended up in which delivered product.;radio;yes;4;Full batch traceability from goods-in to dispatch;3
+section1-7;Section 1;Can you trace materials and components through your process?;Traceability. Traceability means knowing which batch of input material ended up in which delivered product.;radio;yes;5;Digital lot-level traceability available on demand;4
+section1-8;Section 1;Describe an operational improvement you delivered in the past year.;What you changed, why, and the measurable result.;textarea;no;;;
+section2-1;Section 2;How much structured training do your staff receive each year?;People Development.;radio;yes;1;No structured training is provided;0
+section2-1;Section 2;How much structured training do your staff receive each year?;People Development.;radio;yes;2;Induction training only;1
+section2-1;Section 2;How much structured training do your staff receive each year?;People Development.;radio;yes;3;Role-specific training when duties change;2
+section2-1;Section 2;How much structured training do your staff receive each year?;People Development.;radio;yes;4;An annual training plan for every role;3
+section2-1;Section 2;How much structured training do your staff receive each year?;People Development.;radio;yes;5;Personal development plans with budgeted training time;4
+section2-2;Section 2;How mature is your information security programme?;Information Security.;radio;yes;1;No information security measures;0
+section2-2;Section 2;How mature is your information security programme?;Information Security.;radio;yes;2;Antivirus and passwords, nothing formal;1
+section2-2;Section 2;How mature is your information security programme?;Information Security.;radio;yes;3;Written security policies with staff awareness training;2
+section2-2;Section 2;How mature is your information security programme?;Information Security.;radio;yes;4;A managed security programme with regular testing;3
+section2-2;Section 2;How mature is your information security programme?;Information Security.;radio;yes;5;Certified to ISO 27001 or equivalent;4
+section2-3;Section 2;Which technical security controls are in place?;Information Security. Tick each control you operate.;checkbox;no;1;Multi-factor authentication on all accounts;1
+section2-3;Section 2;Which technical security controls are in place?;Information Security. Tick each control you operate.;checkbox;no;2;Encryption of stored and transmitted data;1
+section2-3;Section 2;Which technical security controls are in place?;Information Security. Tick each control you operate.;checkbox;no;3;Security patches applied within a defined window;1
+section2-3;Section 2;Which technical security controls are in place?;Information Security. Tick each control you operate.;checkbox;no;4;Quarterly reviews of who can access what;1
+section2-3;Section 2;Which technical security controls are in place?;Information Security. Tick each control you operate.;checkbox;no;5;A tested incident response plan;1
+section2-3;Section 2;Which technical security controls are in place?;Information Security. Tick each control you operate.;checkbox;no;6;Independent penetration testing;1
+section2-4;Section 2;How quickly are customer complaints typically resolved?;Customer Service.;radio;yes;1;We do not track complaint resolution;0
+section2-4;Section 2;How quickly are customer complaints typically resolved?;Customer Service.;radio;yes;2;Longer than a month on average;1
+section2-4;Section 2;How quickly are customer complaints typically resolved?;Customer Service.;radio;yes;3;Two to four weeks on average;2
+section2-4;Section 2;How quickly are customer complaints typically resolved?;Customer Service.;radio;yes;4;One to two weeks on average;3
+section2-4;Section 2;How quickly are customer complaints typically resolved?;Customer Service.;radio;yes;5;Within five working days on average;4
+section2-5;Section 2;Which employment practices are formalised in writing?;Workforce Practices. Tick each practice you have documented.;checkbox;no;1;Written contracts for every employee;1
+section2-5;Section 2;Which employment practices are formalised in writing?;Workforce Practices. Tick each practice you have documented.;checkbox;no;2;A structured onboarding programme;1
+section2-5;Section 2;Which employment practices are formalised in writing?;Workforce Practices. Tick each practice you have documented.;checkbox;no;3;A confidential grievance channel;1
+section2-5;Section 2;Which employment practices are formalised in writing?;Workforce Practices. Tick each practice you have documented.;checkbox;no;4;An anti-harassment policy with named contacts;1
+section2-5;Section 2;Which employment practices are formalised in writing?;Workforce Practices. Tick each practice you have documented.;checkbox;no;5;Clear overtime and working-hours rules;1
+section2-5;Section 2;Which employment practices are formalised in writing?;Workforce Practices. Tick each practice you have documented.;checkbox;no;6;A published leave and absence policy;1
+section2-5;Section 2;Which employment practices are formalised in writing?;Workforce Practices. Tick each practice you have documented.;checkbox;no;7;Regular documented performance reviews;1
+section2-6;Section 2;What checks are carried out before a new hire starts?;Workforce Practices.;radio;yes;1;No pre-employment checks;0
+section2-6;Section 2;What checks are carried out before a new hire starts?;Workforce Practices.;radio;yes;2;Identity confirmed only;1
+section2-6;Section 2;What checks are carried out before a new hire starts?;Workforce Practices.;radio;yes;3;Identity plus right-to-work verification;2
+section2-6;Section 2;What checks are carried out before a new hire starts?;Workforce Practices.;radio;yes;4;References taken up for every role;3
+section2-6;Section 2;What checks are carried out before a new hire starts?;Workforce Practices.;radio;yes;5;Full vetting proportionate to the role, documented;4
+section2-7;Section 2;Who in your organisation is responsible for data protection?;Give their name and role.;text;yes;;;
+section3-1;Section 3;How prepared is your business to keep operating through a serious incident?;Business Continuity.;radio;yes;1;No continuity planning has been done;0
+section3-1;Section 3;How prepared is your business to keep operating through a serious incident?;Business Continuity.;radio;yes;2;Key risks identified but no written plan;1
+section3-1;Section 3;How prepared is your business to keep operating through a serious incident?;Business Continuity.;radio;yes;3;A written continuity plan exists;2
+section3-1;Section 3;How prepared is your business to keep operating through a serious incident?;Business Continuity.;radio;yes;4;The plan is tested at least once a year;3
+section3-1;Section 3;How prepared is your business to keep operating through a serious incident?;Business Continuity.;radio;yes;5;Tested plans with defined recovery times for every critical function;4
+section3-2;Section 3;How openly can you evidence your financial health?;Financial Standing.;radio;yes;1;We cannot share financial information;0
+section3-2;Section 3;How openly can you evidence your financial health?;Financial Standing.;radio;yes;2;Summary figures on request;1
+section3-2;Section 3;How openly can you evidence your financial health?;Financial Standing.;radio;yes;3;Unaudited accounts shared under NDA;2
+section3-2;Section 3;How openly can you evidence your financial health?;Financial Standing.;radio;yes;4;Independently reviewed accounts shared annually;3
+section3-2;Section 3;How openly can you evidence your financial health?;Financial Standing.;radio;yes;5;Fully audited accounts published or shared every year;4
+section3-3;Section 3;What guards against bribery and corruption in your dealings?;Business Ethics.;radio;yes;1;Nothing formal in place;0
+section3-3;Section 3;What guards against bribery and corruption in your dealings?;Business Ethics.;radio;yes;2;A written anti-bribery policy;1
+section3-3;Section 3;What guards against bribery and corruption in your dealings?;Business Ethics.;radio;yes;3;Policy plus training for staff in exposed roles;2
+section3-3;Section 3;What guards against bribery and corruption in your dealings?;Business Ethics.;radio;yes;4;Gift registers, approval thresholds, and due diligence on partners;3
+section3-3;Section 3;What guards against bribery and corruption in your dealings?;Business Ethics.;radio;yes;5;An audited anti-bribery programme reviewed by the board;4
+section3-4;Section 3;Which insurance covers does your business hold?;Risk and Insurance. Tick each cover currently in force.;checkbox;no;1;Public liability;1
+section3-4;Section 3;Which insurance covers does your business hold?;Risk and Insurance. Tick each cover currently in force.;checkbox;no;2;Product liability;1
+section3-4;Section 3;Which insurance covers does your business hold?;Risk and Insurance. Tick each cover currently in force.;checkbox;no;3;Professional indemnity;1
+section3-4;Section 3;Which insurance covers does your business hold?;Risk and Insurance. Tick each cover currently in force.;checkbox;no;4;Cyber liability;1
+section3-4;Section 3;Which insurance covers does your business hold?;Risk and Insurance. Tick each cover currently in force.;checkbox;no;5;Employer liability;1
+section3-4;Section 3;Which insurance covers does your business hold?;Risk and Insurance. Tick each cover currently in force.;checkbox;no;6;Business interruption;1
+section3-5;Section 3;How do you stay on top of the laws and regulations that apply to you?;Regulatory Compliance.;radio;yes;1;No process for tracking regulatory change;0
+section3-5;Section 3;How do you stay on top of the laws and regulations that apply to you?;Regulatory Compliance.;radio;yes;2;We react when a change affects us;1
+section3-5;Section 3;How do you stay on top of the laws and regulations that apply to you?;Regulatory Compliance.;radio;yes;3;A named person monitors relevant regulation;2
+section3-5;Section 3;How do you stay on top of the laws and regulations that apply to you?;Regulatory Compliance.;radio;yes;4;A compliance register reviewed on a set schedule;3
+section3-5;Section 3;How do you stay on top of the laws and regulations that apply to you?;Regulatory Compliance.;radio;yes;5;Horizon scanning with legal review and board reporting;4
+section3-6;Section 3;What share of your customer and supplier relationships are covered by signed written contracts?;Contract Governance.;select;yes;1;None are in writing;0
+section3-6;Section 3;What share of your customer and supplier relationships are covered by signed written contracts?;Contract Governance.;select;yes;2;Up to a quarter;1
+section3-6;Section 3;What share of your customer and supplier relationships are covered by signed written contracts?;Contract Governance.;select;yes;3;Between a quarter and a half;2
+section3-6;Section 3;What share of your customer and supplier relationships are covered by signed written contracts?;Contract Governance.;select;yes;4;Between half and three quarters;3
+section3-6;Section 3;What share of your customer and supplier relationships are covered by signed written contracts?;Contract Governance.;select;yes;5;All key relationships, reviewed on renewal;4

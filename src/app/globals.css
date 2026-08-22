@@ -1,0 +1,299 @@
+@import 'tailwindcss';
+
+/* Docs and the eslint config quote arbitrary-value classes as prose examples —
+   keep the class scanner out of them or they ship as real utilities. */
+@source not "../../docs";
+@source not "../../eslint.config.mjs";
+
+@plugin 'tailwindcss-animate';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: #eae6e0; /* Canvas */
+  --foreground: #1c1c1c; /* Charcoal */
+  --card: #ffffff;
+  --card-foreground: #1c1c1c;
+  --popover: #ffffff;
+  --popover-foreground: #1c1c1c;
+
+  --primary: #535366; /* Slate */
+  --primary-foreground: #ffffff;
+
+  --secondary: #d9d6d8; /* brand-100 */
+  --secondary-foreground: #1c1c1c;
+
+  --muted: #e9e6e4; /* brand-50 */
+  --muted-foreground: #464657; /* brand-600 */
+
+  --accent: #d9d6d8; /* brand-100 */
+  --accent-foreground: #1c1c1c;
+
+  --destructive: #9e3b33;
+  --destructive-foreground: #ffffff;
+
+  --border: #c0bec5; /* brand-200 */
+  --input: #6e6e80; /* brand-400 */
+  --ring: #535366; /* Slate */
+
+  --radius: 0.5rem;
+
+  --sidebar-background: #ffffff;
+  --sidebar-foreground: #1c1c1c;
+  --sidebar-primary: #535366;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #535366;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #c0bec5;
+  --sidebar-ring: #535366;
+
+  /* base-900 is the footer background — public/logo-light.svg is coloured to sit on it. */
+  --base-100: #f5f3f0;
+  --base-200: #dedbd6;
+  --base-300: #cfccca;
+  --base-400: #b4b2b6;
+  --base-500: #8e8d96;
+  --base-600: #5f5f6d;
+  --base-700: #484857;
+  --base-800: #32323a;
+  --base-900: #1f1f26;
+
+  --green-primary: var(--risk-green-foreground);
+
+  --statistic-green: #e7efe5;
+
+  /* Each -foreground doubles as a standalone icon/border colour on light
+     surfaces — keep them deep versions of their hue, not Charcoal. */
+  --risk-green: #bfd8ba;
+  --risk-green-foreground: #2a5228;
+  --risk-yellow: #dcbe7e;
+  --risk-yellow-foreground: #66450f;
+  --risk-red: #c9857e;
+  --risk-red-foreground: #5c1712;
+
+  --badge-status-neutral-foreground: #5f5f6d;
+  --badge-status-progress: #d9d6d8;
+  --badge-status-progress-foreground: #3a3a48;
+  /* Own token so the status ladder can diverge from the risk family later. */
+  --badge-status-complete: var(--risk-green);
+}
+
+/* No dark-mode toggle is wired up — this block is latent. */
+.dark {
+  --background: #1f1f26;
+  --foreground: #eae6e0;
+  --card: #2a2a33;
+  --card-foreground: #eae6e0;
+  --popover: #2a2a33;
+  --popover-foreground: #eae6e0;
+  --primary: #9c9ba6; /* brand-300 */
+  --primary-foreground: #1c1c1c;
+  --secondary: #32323a;
+  --secondary-foreground: #eae6e0;
+  --muted: #32323a;
+  --muted-foreground: #a9a7b0;
+  --accent: #3a3a48;
+  --accent-foreground: #eae6e0;
+  --destructive: #c4665c;
+  --destructive-foreground: #1c1c1c;
+  --border: #3a3a48;
+  --input: #5f5f6d;
+  --ring: #9c9ba6;
+  --sidebar-background: #1f1f26;
+  --sidebar-foreground: #eae6e0;
+  --sidebar-primary: #9c9ba6;
+  --sidebar-primary-foreground: #1c1c1c;
+  --sidebar-accent: #3a3a48;
+  --sidebar-accent-foreground: #eae6e0;
+  --sidebar-border: #3a3a48;
+  --sidebar-ring: #9c9ba6;
+}
+
+@theme inline {
+  --text-heading-xxl: 65px;
+  --text-heading-xxl--line-height: 1.2;
+
+  --text-heading-xl: 48px;
+  --text-heading-xl--line-height: 1.2;
+
+  --text-heading-l: 30px;
+  --text-heading-l--line-height: 1.2;
+
+  --text-heading-m: 24px;
+  --text-heading-m--line-height: 1.3;
+
+  --text-heading-s: 21px;
+  --text-heading-s--line-height: 1.4;
+
+  --text-heading-xs: 18px;
+  --text-heading-xs--line-height: 1.4;
+
+  --text-heading-xxs: 16px;
+  --text-heading-xxs--line-height: 1.4;
+
+  --text-body-xl: 18px;
+  --text-body-xl--line-height: 1.6;
+
+  --text-body-l: 16px;
+  --text-body-l--line-height: 1.5;
+
+  --text-body-m: 14px;
+  --text-body-m--line-height: 1.5;
+
+  --text-body-s: 12px;
+  --text-body-s--line-height: 1.5;
+
+  --text-body-xs: 11px;
+  --text-body-xs--line-height: 1.5;
+
+  --text-button-l: 16px;
+  --text-button-l--line-height: 24px;
+
+  --text-button-m: 14px;
+  --text-button-m--line-height: 24px;
+
+  --text-button-s: 12px;
+  --text-button-s--line-height: 24px;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-surface-header: #f1eee9;
+
+  /* Brand ramp, Canvas → Slate → Charcoal. 500 is Slate exactly. */
+  --color-brand-50: #e9e6e4;
+  --color-brand-100: #d9d6d8;
+  --color-brand-200: #c0bec5;
+  --color-brand-300: #9c9ba6;
+  --color-brand-400: #6e6e80;
+  --color-brand-500: #535366;
+  --color-brand-600: #464657;
+  --color-brand-700: #3a3a48;
+  --color-brand-800: #2e2e38;
+  --color-brand-900: #232329;
+  --color-brand-950: #1a1a1e;
+
+  --color-brand-dark: #1c1c1c;
+  --color-brand-navy: #1c1c1c;
+
+  --color-brand-deep: #535366;
+  --color-brand-deep-foreground: #ffffff;
+
+  --color-accent-info: #535366;
+  --color-accent-warning: #8a5a12;
+  --color-accent-error: var(--destructive);
+
+  /* Mirrored by RISK_CHART_COLORS.low in src/lib/chart-colors.ts. */
+  --color-accent-success: var(--risk-green);
+
+  --color-accent-verified: #535366;
+
+  --color-dropzone-border: #9c9ba6;
+  --color-dropzone-muted: #535366;
+
+  --color-sidebar: var(--sidebar-background);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --color-base-100: var(--base-100);
+  --color-base-200: var(--base-200);
+  --color-base-300: var(--base-300);
+  --color-base-400: var(--base-400);
+  --color-base-500: var(--base-500);
+  --color-base-600: var(--base-600);
+  --color-base-700: var(--base-700);
+  --color-base-800: var(--base-800);
+  --color-base-900: var(--base-900);
+
+  --color-green-primary: var(--green-primary);
+
+  --color-statistic-green: var(--statistic-green);
+
+  --color-risk-green: var(--risk-green);
+  --color-risk-green-foreground: var(--risk-green-foreground);
+
+  --color-risk-yellow: var(--risk-yellow);
+  --color-risk-yellow-foreground: var(--risk-yellow-foreground);
+
+  --color-risk-red: var(--risk-red);
+  --color-risk-red-foreground: var(--risk-red-foreground);
+
+  --color-badge-status-neutral-foreground: var(
+    --badge-status-neutral-foreground
+  );
+  --color-badge-status-progress: var(--badge-status-progress);
+  --color-badge-status-progress-foreground: var(
+    --badge-status-progress-foreground
+  );
+  --color-badge-status-complete: var(--badge-status-complete);
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+    to {
+      height: 0;
+    }
+  }
+}
+
+/* Tailwind v4 defaults border-color to currentcolor; keep the v3 behaviour. */
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-border, currentcolor);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

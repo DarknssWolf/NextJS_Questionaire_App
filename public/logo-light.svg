@@ -1,0 +1,33 @@
+<!--
+  PLACEHOLDER WORDMARK, light variant — not a designed logo.
+
+  Identical geometry to logo.svg but in Canvas (#EAE6E0) instead of Charcoal.
+  Needed because footer.tsx sits on `bg-base-900` (hsl(204 41% 24%), a dark
+  navy) where the Charcoal wordmark is effectively invisible (~1.4:1 contrast).
+  The previous logo was bright green, so it read on both light and dark
+  surfaces and only one file was needed.
+
+  Swap point: the designed logo needs BOTH a dark-on-light and a light-on-dark
+  rendition. Keep these two filenames and it stays a file swap.
+  See docs/BRANDING.md.
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="323"
+  height="110"
+  viewBox="0 0 323 110"
+  role="img"
+  aria-labelledby="logo-light-title"
+>
+  <title id="logo-light-title">Eye C You</title>
+  <text
+    x="161.5"
+    y="73"
+    text-anchor="middle"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="50"
+    font-weight="600"
+    letter-spacing="0.5"
+    fill="#EAE6E0"
+  >Eye C You</text>
+</svg>

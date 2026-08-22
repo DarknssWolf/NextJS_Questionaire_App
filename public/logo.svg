@@ -1,0 +1,34 @@
+<!--
+  PLACEHOLDER WORDMARK — not a designed logo.
+
+  Plain type, Charcoal (#1C1C1C), transparent background. The viewBox is
+  323x110 to match the pixel dimensions of the previous logo.png it replaced,
+  so every existing width/height prop keeps working unchanged.
+
+  Swap point: drop the designed asset here as public/logo.svg (or replace with
+  a .png and update the 6 <Image src> references). See docs/BRANDING.md.
+
+  Uses a system sans stack rather than outlined paths, so the exact letterforms
+  vary a little by platform. That is fine for a placeholder; the real logo
+  should ship as outlines.
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="323"
+  height="110"
+  viewBox="0 0 323 110"
+  role="img"
+  aria-labelledby="logo-title"
+>
+  <title id="logo-title">Eye C You</title>
+  <text
+    x="161.5"
+    y="73"
+    text-anchor="middle"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="50"
+    font-weight="600"
+    letter-spacing="0.5"
+    fill="#1C1C1C"
+  >Eye C You</text>
+</svg>

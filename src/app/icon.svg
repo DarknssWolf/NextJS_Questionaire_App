@@ -1,0 +1,30 @@
+<!--
+  PLACEHOLDER APP ICON — not a designed mark.
+
+  Next.js App Router `icon` file convention (app/**/icon.svg): Next emits
+  <link rel="icon" href="/icon?<hash>" type="image/svg+xml" sizes="any"> into
+  <head> automatically. Replaces the old public/favicon.ico.
+
+  Minimal eye glyph in Charcoal (#1C1C1C) on a Canvas (#EAE6E0) plate. The
+  plate is deliberate: a bare charcoal glyph on a transparent background
+  disappears against a dark browser tab bar.
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="32"
+  height="32"
+  viewBox="0 0 32 32"
+  role="img"
+  aria-labelledby="icon-title"
+>
+  <title id="icon-title">Eye C You</title>
+  <rect width="32" height="32" rx="7" fill="#EAE6E0" />
+  <path
+    d="M5 16 Q16 3 27 16 Q16 29 5 16 Z"
+    fill="none"
+    stroke="#1C1C1C"
+    stroke-width="2.4"
+    stroke-linejoin="round"
+  />
+  <circle cx="16" cy="16" r="3.6" fill="#1C1C1C" />
+</svg>
